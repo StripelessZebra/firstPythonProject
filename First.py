@@ -16,3 +16,10 @@ while len(food) <= 8:
     print("Hi")
     food.append("Added")
     print(food)
+
+if len(food) >2:
+    print("Food Array has " + str(len(food)) + " types of food." )
+elif len(food)<2:
+    print("lesser than 2")
+else:
+    print("lesser than 2 and more than 2")
