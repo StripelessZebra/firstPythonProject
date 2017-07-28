@@ -1,3 +1,6 @@
+import Second
+
+
 food = ['a','bb', 'c','d']
 
 print(len(food))
@@ -23,3 +26,5 @@ elif len(food)<2:
     print("lesser than 2")
 else:
     print("lesser than 2 and more than 2")
+
+print(Second.simpleAdditionMethodThatTakesInUnlimitedArguments(3,3))

@@ -41,11 +41,12 @@ print(myFirstPythodMethod(2))
 #Simple Calculator
 def simpleAdditionMethodThatTakesInUnlimitedArguments(*randomName):
     totalAmount = 0
-    print(randomName)
+    #print(randomName)
     for i in randomName:
-        print(i)
+        #print(i)
         totalAmount += i
-    print(totalAmount)
+    #print(totalAmount)
+    print("end")
 
-
+print("Here")
 simpleAdditionMethodThatTakesInUnlimitedArguments(33,333,33,33)
